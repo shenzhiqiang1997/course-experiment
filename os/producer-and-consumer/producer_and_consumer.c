@@ -59,7 +59,7 @@ void* consumer(void* arg){
 
 		// 消费数据
 		sleep(1);
-		printf("消费者%d消费了一个数据：%d\n",i,nextc);
+		printf("消费者%d消费了一个数据：%c\n",i,nextc);
 	}
 }
 
